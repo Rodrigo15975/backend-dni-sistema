@@ -1,7 +1,7 @@
 console.clear();
 import express from "express";
 import cors from "cors";
-import { getFetchDNI } from "./hook/getfetchDni.js";
+import { getFetchDNI } from "./hook/getFetchDni.js";
 const server = express();
 
 server.use(cors());
